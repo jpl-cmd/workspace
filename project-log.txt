@@ -1,0 +1,9 @@
+Projektin lokitiedosto
+
+Tähän tiedostoon kerätään tietoa projektin etenemisestä.
+
+28/11/2019 Klo 13:00-15:15
+- Luotu määrittelydokumentti
+- Luotu projektikansio
+- Luotu gitlab- repository
+
