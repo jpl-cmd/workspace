@@ -1,9 +1,18 @@
 Projektin lokitiedosto
 
-Tähän tiedostoon kerätään tietoa projektin etenemisestä.
+Projektin eteneminen dokumentoidaan tähän tiedostoon.
 
 28/11/2019 Klo 13:00-15:15
 - Luotu määrittelydokumentti
 - Luotu projektikansio
 - Luotu gitlab- repository
+
+29/11/2019 Klo 12:00-14:00
+- Piirustusjärjestelmä työn alle
+
+TO-DO
+- piirustuksien tallentaminen
+- verkkosivun käyttöliittymän luominen (Bootstrap)
+
+30/11/2019 Klo 10:20-
 
