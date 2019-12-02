@@ -2,17 +2,33 @@ Projektin lokitiedosto
 
 Projektin eteneminen dokumentoidaan tähän tiedostoon.
 
-28/11/2019 Klo 13:00-15:15
+28/11/2019
+Klo 13:00-15:15
 - Luotu määrittelydokumentti
 - Luotu projektikansio
 - Luotu gitlab- repository
 
-29/11/2019 Klo 12:00-14:00
+29/11/2019
+Klo 12:00-14:00
 - Piirustusjärjestelmä työn alle
 
-TO-DO
-- piirustuksien tallentaminen
-- verkkosivun käyttöliittymän luominen (Bootstrap)
+30/11/2019
+Klo 10:20-11:30
+- Lisätty Express- ja Bootstrap-kirjastot projektiin
+- Luotu palvelinskriptin ja Rest APIn pohja
+- Suunniteltu Rest- metodit
+Klo 12:15-17:15
+- Liitetty projektiin Bootstrapin toiminnallisuus
+- Luotu sivuston otsikkokehys ja valikko
+- Luotu pohja piirustusalustan ja muistiinpanojen komponenteille
+- Lisätty Jasmine-yksikkötestauskirjasto projektiin
 
-30/11/2019 Klo 10:20-
+01/12/2019
+Klo 10:55-15:20
+- Liitetty komponentit pääohjelmaan.
+- Lisätty valikkoon toiminnallisuus komponenttien vaihtamista varten.
+Klo 18:00-20:30
+- Jatkettu piirustusalustan liittämistä pääohjelmaan
 
+02/12/2019
+Klo 8:30-
