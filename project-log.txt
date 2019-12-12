@@ -24,11 +24,34 @@ Klo 12:15-17:15
 - Lisätty Jasmine-yksikkötestauskirjasto projektiin
 
 01/12/2019
-Klo 10:55-15:20
+Klo 10:55-15:20,Klo 18:00-20:30
 - Liitetty komponentit pääohjelmaan.
 - Lisätty valikkoon toiminnallisuus komponenttien vaihtamista varten.
-Klo 18:00-20:30
-- Jatkettu piirustusalustan liittämistä pääohjelmaan
+- Muotoiltu käyttöliittymää.
 
 02/12/2019
-Klo 8:30-
+Klo 8:30- 14:15
+- Käyttöliittymän muotoilua.
+- Piirustusalustan liittäminen pääohjelmaan.
+
+04/12/2019
+Klo 14:15- 15:00
+
+08/12/2019
+Klo 14:20- 20:00
+
+09/12/2019
+Klo 9:15-15:00
+- Luotu sql- tietokanta muistiinpanoille
+
+10/12/2019
+Klo 11:00-23:30
+- Lisätty get- ja post- metodit tietokantaskriptiin
+- Vaihdettu SQL- päivämäärän formaatti
+- Lisätty piirustuksen lataus
+- Viimeistelty piirustuspaneeli
+
+11/12/2019
+Klo 18:20-
+- Lisätty put- ja delete-metodit tietokantaskriptiin
+- Viimeistelty muistio-sivu

@@ -1,29 +1,25 @@
 <template>
-  <div class="main">
+  <div class="frameMain">
       <div id="navigationBar">
           <span id="showMenu" style="font-size:30px;cursor:pointer" @click="openNav">&#9776; Menu</span>
       </div>
+      <div id="clickField" @click="closeNav">
       <div class="jumbotron text-center">
-          <img alt="Vue logo" src="../assets/logo.png">
+          <img alt="Vue logo" src="../assets/logo.png" id="logo" @click="activateHomeScreen">
       </div>
     <h1>{{ mainTitle }}</h1>
       <div id="sideNav" class="sidenav">
-          <span href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</span>
+          <span class="closeButton" @click="closeNav">&times;</span>
           <span @click="activateNoteScreen">Notes</span>
           <span @click="activateDrawScreen">Drawings</span>
           <span @click="activateAccountScreen">Account</span>
           <span @click="activateLogout">Logout</span>
       </div>
-      <!--
-      <div class="alert alert-success alert-dismissible fade show" role="alert">Welcome to Workspace!
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-          </button>
-      </div>
-      -->
       <drawing-panel v-if="mode ==='draw'"></drawing-panel>
       <note-panel v-if="mode === 'note'"></note-panel>
       <account-panel v-if="mode === 'account'"></account-panel>
+      <home-panel v-if="mode === 'home'"></home-panel>
+  </div>
   </div>
 </template>
 
@@ -32,16 +28,15 @@
     import DrawingPanel from "@/components/DrawingPanel";
     import NotePanel from "@/components/NotePanel";
     import AccountPanel from "@/components/AccountPanel";
+    import HomePanel from "@/components/HomePanel";
 
 export default {
-  name: 'home-screen',
-  props: {
-
-  },
+  name: 'main-frame',
     components:{
         DrawingPanel,
         NotePanel,
-        AccountPanel
+        AccountPanel,
+        HomePanel
     },
   methods:{
           openNav() {
@@ -53,16 +48,20 @@ export default {
         activateDrawScreen() {
             this.mode = "draw";
         },
+
+        activateHomeScreen(){
+          this.mode ="home";
+        },
         activateNoteScreen(){
             this.mode = "note";
         },
         activateAccountScreen(){
             this.mode = "account";
         },
-        activateLogout(){
-          this.mode = "logout";
-          //Initiate logout procedure
-        }
+        activateLogout() {
+            this.mode = "logout";
+            //Initiate logout procedure
+        },
 
   },
     data(){
@@ -110,7 +109,7 @@ a {
     font-size: 25px;
     color: #5EA1FF;
     display: block;
-    transition: 0.2s;
+    transition: 0.3s;
     cursor : pointer;
 }
 
@@ -118,7 +117,7 @@ a {
     color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sidenav .closeButton {
     position: absolute;
     top: 0;
     right: 25px;
@@ -146,6 +145,11 @@ h1 {
     background-image: url("../assets/stars.jpg");
     background-size:cover;
     margin: 0;
+}
+
+#logo:hover{
+    cursor:pointer;
+
 }
 
 
