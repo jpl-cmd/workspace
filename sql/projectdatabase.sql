@@ -1,3 +1,5 @@
+# noinspection SqlNoDataSourceInspectionForFile
+
 CREATE DATABASE IF NOT EXISTS projectdb;
 
 USE projectdb;
@@ -12,7 +14,7 @@ CREATE TABLE IF NOT EXISTS notes (
 
 
 
-INSERT INTO notes (title,content,create_date) VALUES ("Placeholder Title","Placeholder Main Text","2019-12-09");
+-- INSERT INTO notes (title,content,create_date) VALUES ("Placeholder Title","Placeholder Main Text","2019-12-09");
 
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mysqlroot';
