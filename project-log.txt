@@ -52,6 +52,6 @@ Klo 11:00-23:30
 - Viimeistelty piirustuspaneeli
 
 11/12/2019
-Klo 18:20-
+Klo 18:20-03:00
 - Lisätty put- ja delete-metodit tietokantaskriptiin
 - Viimeistelty muistio-sivu

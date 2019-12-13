@@ -3,7 +3,7 @@
 
      <div class="alert alert-success alert-dismissible fade show" role="alert">
          <p id="welcomeMessage">
-             Welcome to Workspace! Last time you logged in was {{lastLoginDate}}
+             Welcome to Workspace!
          </p>
          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
              <span aria-hidden="true">&times;</span>
