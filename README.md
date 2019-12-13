@@ -4,11 +4,13 @@ This project is created as a part of the Web-development course TX00CD82-3009 of
 
 
 ##Run server
+
 ```
 nodemon script.js
 ```
 
 ##Run client
+
 ```
 npm run serve
 ```
